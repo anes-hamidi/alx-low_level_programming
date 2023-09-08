@@ -1,1 +1,1 @@
-first day with c
+#Variable & if else & while tasks
