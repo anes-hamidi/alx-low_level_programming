@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
- * Description: a c programe check the value of last digit in a given number 
+ * Description: a c programe check the value of last digit in a given number
  * print value is positive or negative or equal 0
  * Return: Always 0 (success)
  */
