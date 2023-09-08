@@ -4,7 +4,7 @@
  * Discription: print alphabet expect q and a
  * Return: Always  0  (success)
  */
-int main(void)
+int main()
 {
 char l;
 for (l = 'a'; l <= 'z'; l++)
