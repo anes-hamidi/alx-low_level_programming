@@ -17,6 +17,4 @@ _putchar(i);
 }
 /* print new line */
 _putchar('\n');
-/* return: Alwayse 0 (success) */
-return (0);
 }
