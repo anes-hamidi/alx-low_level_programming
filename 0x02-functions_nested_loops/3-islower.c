@@ -10,7 +10,7 @@
 int _islower(int c)
 {
 /* check if character is lowecaser return 1 if is not lowercase return 0 */
-if (c >= 'a' &&c <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 /* return 1 (success) */
 return (1);
