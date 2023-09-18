@@ -11,7 +11,8 @@ while (s[j] != '\0')
 {
 j++;
 }
-for (int i = j - 1; i >= 0; i++)
+int i;
+for (i = j - 1; i >= 0; i++)
 {
 _putchar(s[i]);
 }
