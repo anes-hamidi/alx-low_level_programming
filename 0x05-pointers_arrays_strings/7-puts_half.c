@@ -18,6 +18,7 @@ for (i = en / 2; str[i] != '\0'; i++)
 {
 _putchar(str[i]);
 }
+}
 else if (en % 2)
 {
 for (n = (en - 1) / 2; n < en - 1; n++)
