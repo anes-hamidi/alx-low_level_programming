@@ -1,6 +1,17 @@
 /**
- * reset_to_98 - function for update variable with pointer
- * Description: update value
- * @n: pointer to a int variable
- * Return: Always 0 (success)
+ * _strlen - function for returns the length of a string
+ * Description: calculate length of a string
+ * @s: pointer to a char variable
+ * @i: counter
+ * Return: counter
  */
+int _strlen(char *s)
+{
+int i;
+while (*s != '\o')
+{
+i++;
+s++;
+}
+return (i);
+}
