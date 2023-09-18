@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _puts - function print string folowed with new line
  * Description:add new line to string
