@@ -4,17 +4,13 @@
  * Description: revers string
  * @s: pointer to a string variable
  */
-void print_rev(char *s)
-{
-int j = 0;
-int i;
-while (s[j] != '\0')
-{
-j++;
+void print_rev(char *s) {
+int len = 0;
+while (s[len] != '\0') {
+len++; 
 }
-for (i = j - 1; i >= 0; i++)
-{
-_putchar(s[i]);
+for (int i = len - 1; i >= 0; i--) {
+putchar( s[i]); 
 }
-_putchar('\n');
+putchar('\n');
 }
