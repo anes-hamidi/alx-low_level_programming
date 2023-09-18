@@ -1,6 +1,15 @@
 /**
- * reset_to_98 - function for update variable with pointer
- * Description: update value
- * @n: pointer to a int variable
- * Return: Always 0 (success)
+ * _puts - function print string folowed with new line
+ * Description:add new line to string
+ * @str: pointer to string
  */
+void _puts(char *str)
+{
+int i = 0;
+while (str[i != '\0')
+{
+_putchar(str[i]);
+i++;
+}
+_putchar('\n');
+}
