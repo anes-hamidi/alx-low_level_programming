@@ -15,7 +15,7 @@ while (dest[len] != '\0')
 len++;
 }
 i = 0;
-while (i < n && src[i] != '\n')
+while (i < n && src[i] != '\0')
 {
 dest[len] = src[j];
 len++;
