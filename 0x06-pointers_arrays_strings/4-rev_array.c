@@ -1,4 +1,4 @@
-#nclude "main.h"
+#include "main.h"
 /**
  * reverse_array - reverse_array
  * @a: array
