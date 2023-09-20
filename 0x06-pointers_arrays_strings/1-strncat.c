@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_strncat - 
- * @dest:
- * @src:
- * @n:
+ * *_strncat - concatenates two strings
+ * @dest: pointer to string 1
+ * @src: pointer to string 2
+ * @n: byte
  * Return: dest
 */
 char *_strncat(char *dest, char *src, int n)
