@@ -14,8 +14,12 @@ while (dest[len] != '\0')
 {
 len++;
 }
-for (i = 0; src[i] != '\0' && i < n; i++)
+for (i = 0; i < n; i++)
 {
+if (src[i] != '\0')
+{
+break;
+}
 dest[len + 1] = src[i];
 }
 dest[len + 1] = '\0';
