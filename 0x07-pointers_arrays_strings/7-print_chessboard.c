@@ -3,6 +3,7 @@
 /**
  * print_chessboard - bitboard
  * @a: pointer to array
+ * Return: Always 0 (success)
  * 
  */
 
